@@ -1,0 +1,226 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: rgba(0, 0, 0, 0) linear-gradient(#6abad1, #a2d9ed 6.2%, #a3dbec 11.2%, #a6dbed 11.2%, #a9ddeb 13.2%, #b1dfee 15.4%, #b8e2f0 17.2%, #bce2ed 18.8%, #cbe6ef 23.6%, #cde5ef 23.7%, #cbe6ef 24%, #d3eaf2 25.6%, #d8e9f0 27.5%, #e6eef3 50%, #e6edf3 85%, #bddae5 100%) repeat scroll 0 0;
+    font-family: Tahoma;
+}
+li {
+    list-style-type: none;
+}
+.wrapper, header, .content, footer {
+    width: 1000px;
+}
+.cloud {
+    background: rgba(0, 0, 0, 0) url("../img/cloud.png") no-repeat scroll center top;
+    width: 100%;
+}
+.wrapper {
+    margin: 0 auto;
+    min-height: 1484px;
+}
+.cloud, .wrapper, header, .block, .hello, .gallery {
+    position: relative;
+}
+header div, h2, footer {
+    position: absolute;
+}
+.clear {
+    clear: both;
+}
+.contacts, .mail, .call, .gallery h2 {
+    top: 0;
+}
+div h1 {
+    margin: 0;
+}
+.contacts p, .mail p, .call a, .block p, footer, footer a {
+    font-size: 12px;
+}
+aside a, .sert p, .maker p, .hello p, .gallery h1 {
+    font-size: 14px;
+}
+.contacts h1, .mail h1, .block h1, .hello h1 {
+    font-size: 18px;
+}
+.contacts h1, .mail a, h2 a, footer, footer a {
+    color: #236583;
+}
+.contacts h1, .mail a, .call a, aside a, .block h1 a, .hello p a, footer a {
+    text-decoration: none;
+}
+.mail a:hover, .block h1 a:hover, .hello a:hover, footer a:hover {
+    text-decoration: underline;
+}
+.contacts p, .mail p, .contacts h1, .mail h1 {
+    padding-left: 11px;
+}
+.contacts h1, .mail h1, .sert p, .maker p, .block h1 a, .hello h1, .gallery h1 {
+    font-weight: bold;
+}
+.contacts p, .mail p, aside a {
+    color: #386477;
+}
+.up, footer li {
+    border-left: 1px solid #236583;
+}
+.left, .block div {
+    float: left;
+}
+.sert, .maker, .gallery {
+    background: #e8edf0 none repeat scroll 0 0;
+    border: 2px solid #c2ccd2;
+    border-radius: 8px;
+}
+.sert p, .maker p, .gallery h1 {
+    background: rgba(255, 255, 255, 0.5) none repeat scroll 0 0;
+    border-bottom: 2px none #fff;
+    border-radius: 8px 8px 0 0;
+    color: #6c924c;
+    padding: 11px 96px 14px 21px;
+}
+.block p, .hello p {
+    color: #50524e;
+    margin-bottom: 10px;
+}
+.hello h2, footer {
+    bottom: 12px;
+}
+.gallery div, footer li {
+    display: inline-block;
+}
+header {
+    height: 120px;
+}
+.logo {
+    background: rgba(0, 0, 0, 0) url("../img/logo.png") no-repeat scroll 15px 0;
+    height: 126px;
+    width: 265px;
+}
+.contacts {
+    left: 418px;
+}
+.mail {
+    left: 629px;
+}
+.up {
+    padding-top: 9px;
+}
+.call {
+    background: rgba(0, 0, 0, 0) url("../img/call.png") no-repeat scroll 15px 0;
+    padding: 94px 16px 6px 118px;
+    right: 8px;
+}
+.call a {
+    color: #fff;
+}
+.content {
+    background-clip: padding-box, border-box;
+    background-image: linear-gradient(#f0f6f7 5%, #ddeff5 15.6%, rgba(187, 221, 232, 0) 33%, rgba(187, 221, 232, 0) 67%, #e6eef3 90%, #f0f6f7 100%), linear-gradient(#fff 0.001%, rgba(148, 201, 217, 1) 1%, rgba(148, 201, 217, 0) 20%, rgba(148, 201, 217, 0) 90%, rgba(184, 197, 204, 1) 100%);
+    background-origin: padding-box, border-box;
+    border: 2px solid transparent;
+    border-radius: 14px;
+    min-height: 1242px;
+}
+.left {
+    padding-top: 6px;
+}
+aside a {
+    background: rgba(218, 226, 226, 0) url("../img/marker.png") no-repeat scroll -2px 0;
+    display: block;
+    margin-left: 2px;
+    padding: 7px 71px 11px 38px;
+}
+aside a:hover {
+    background: rgba(218, 226, 226, 1) url("../img/marker.png") no-repeat scroll -2px 0;
+}
+.sert, .maker {
+    margin: 40px 0 0 2px;
+}
+.sert img {
+    margin: 16px 61px 12px;
+}
+div.maker {
+    background: #e8edf0 url("../img/maker.png") no-repeat scroll 12px 54px;
+    margin: 14px 0 0 2px;
+    padding: 0 0 178px;
+}
+.right {
+    float: right;
+}
+.block {
+    background: #fff none repeat scroll 0 0;
+    border: 2px solid #bdc3c7;
+    border-radius: 8px;
+    height: 193px;
+    margin: 10px 0 10px 12px;
+    width: 730px;
+}
+.block div {
+    padding: 10px;
+}
+.block h1 {
+    padding: 10px 0 0 222px;
+}
+.block h1 a {
+    color: #529619;
+}
+.block p {
+    border-top: 1px solid #b9c5ca;
+    margin-left: 222px;
+    margin-top: 15px;
+    padding: 7px 2px 3px 0;
+}
+.block h2 {
+    bottom: 9px;
+    right: 13px;
+}
+h2 a {
+    font-size: 11px;
+}
+h2 a:hover {
+    color: #309dcf;
+}
+.hello {
+    padding: 10px 12px;
+    width: 734px;
+}
+.hello h1 {
+    color: #6c924c;
+}
+.hello p a {
+    color: #000;
+}
+.hello h2 {
+    right: 30px;
+}
+.gallery {
+    margin: 10px 0 0 17px;
+    width: 728px;
+}
+.gallery div {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #b4bbb8;
+    margin: 14px 0 6px 6px;
+    padding: 5px;
+}
+.gallery div:hover {
+    border: 1px solid #6693a8;
+}
+.gallery h2 {
+    right: 16px;
+}
+footer {
+    text-align: center;
+}
+footer p {
+    margin: 0 0 29px;
+}
+footer li {
+    padding: 0 6px 0 10px;
+}
+footer ul:first-child {
+    border: medium none;
+}
